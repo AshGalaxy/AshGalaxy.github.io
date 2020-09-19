@@ -8,23 +8,61 @@
                 background-color: rgb(232, 39, 232);
                 text-align: center;
             }
+            .jump-to {
+                text-align: center;
+                height: 100%;
+                width: 160px;
+                position: fixed;
+                z-index: 1; /* Stay on top */
+                top: 0; /* Stay at the top */
+                left: 0;
+                background-color: rgb(107, 0, 107);
+                overflow-x: hidden; /* Disable horizontal scroll */
+                padding-top: 0px;
+            }
+            .jump-to a {
+                text-decoration: none;
+                font-size: 15px;
+                color: rgb(175, 122, 175);
+                display: block;
+                padding-bottom: 21px;
+            }
+            .jump-to h4 {
+                font-weight: bold;
+                font-size: 20px;
+                color: lightgray;
+                display: block;  
+                
+            }
+            .jump-to a:hover {
+                color: black;
+                text-decoration: underline;
+            }
+            .main {
+                margin-left: 160px;
+                padding: 0px 2px;
+            }
         </style>
     </head>
     <body>
+<div class="jump-to">
+<h4>Jump To...</h4>
+<a href="#iphone-8">iPhone 8</a> 
+<a href="#iphone-xr">iPhone XR</a>
+<a href="#iphone-11">iPhone 11</a>
+<a href="#iphone-11-pro-max">iPhone 11 Pro Max</a> 
+<a href="#galaxy-s9">Galaxy S9</a>
+<a href="#galaxy-s10">Galaxy S10</a>
+<a href="#galaxy-s10-note">Galaxy S10 Note</a>
+<a href="#galaxy-s20">Galaxy S20</a>  
+</div>
+<div class="main">
 <h1>Welcome to iGalaxy!</h1>
 <p>Navigate the Seas of Technology</p>
 <img src="https://static.wixstatic.com/media/ce576c_db0ecc3d24fd4b2e87a1431077f3b829~mv2.jpg/v1/fill/w_343,h_236,al_c,q_80,usm_0.66_1.00_0.01/iGalaxy%20logo.webp"
 alt="the iGalaxy logo">
 <h2>Descriptions of Different Phones:</h2>
-<a href="#iphone-8">iPhone 8</a>
-<a href="#iphone-xr">iPhone XR</a>
-<a href="#iphone-11">iPhone 11</a>
-<a href="#iphone-11-pro-max">iPhone 11 Pro Max</a> <br>
-<a href="#galaxy-s9">Galaxy S9</a>
-<a href="#galaxy-s10">Galaxy S10</a>
-<a href="#galaxy-s10-note">Galaxy S10 Note</a>
-<a href="#galaxy-s20">Galaxy S20</a>
-        <a href="https://ashgalaxy.github.io/phones.html">Go to other page</a>   
+
 <h3 id="iphone-8">iPhone 8</h3>
 <img src="https://images-na.ssl-images-amazon.com/images/I/61yX3VKY7GL._AC_SX569_.jpg" alt="the iPhone 8" height="120">
 <p><strong>Price:</strong> $349 from Amazon (with 64GB)<br>
@@ -108,6 +146,7 @@ so you can compare and see which one is better for you. Here they are: <br>
 Battery Life is about 13 hours (100% to 0%) <br>
 Charging duration is about 1 hour! *fastest charging duration out of all Samsung and Apple phones yet!* (0% to 100%, using the charger that comes with the phone)
 </p>
+</div>
 
 </body>
 </html>
